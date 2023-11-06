@@ -1,6 +1,6 @@
 .features-container{
   width: 75%;
-  min-height: 250px;
+  min-height: 300px;
   margin: 100px auto;
   padding: 0 20px;
   border: 1px solid #c0c0c0;
@@ -11,18 +11,10 @@
   flex-wrap: wrap;
 }
 
-.feature-box{
-  width: 250px;
-  height: 300px;
-  padding: 20px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  text-align: center;
-  margin: 10px;
-}
-
 @media (max-width: 870px) {
-  .feature-box{
-    margin: 10px auto;
+  app-feature-box{
+    margin: 5px auto;
   }
 }
+
+

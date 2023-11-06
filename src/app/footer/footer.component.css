@@ -1,0 +1,10 @@
+.footer{
+  margin-top: 0;
+  width: 100%;
+  background-color: #18191c;
+  color: white;
+
+}
+.footer *{
+  background-color: #18191c
+}
